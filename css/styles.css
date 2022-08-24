@@ -845,7 +845,15 @@ body {
     padding: 12px 16px;
     cursor: pointer;
     resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
+.form-coment:focus,
+.form-coment:hover{
+    border-color: var(--active-color);
+}
+
 
 
 .checkbox-conteiner{
@@ -865,6 +873,7 @@ body {
     color: var(--text-color);
     letter-spacing: 0.03em;;
 }
+
 .checkbox-link{
     color: var(--active-color);
 }
